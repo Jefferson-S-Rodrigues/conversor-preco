@@ -1,4 +1,6 @@
 export interface Calculated {
     product: string,
-    price: number
+    price: number,
+    url?: string,
+    annot?:string
 }
