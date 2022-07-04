@@ -55,7 +55,7 @@
 
             <ng-container matColumnDef="price">
                 <th mat-header-cell *matHeaderCellDef> Preço </th>
-                <td mat-cell *matCellDef="let element"> {{element.price | currency:"USD"}} </td>
+                <td mat-cell *matCellDef="let element" class="txt-usd"> {{element.price | currency:"USD"}} </td>
             </ng-container>
 
             <ng-container matColumnDef="brl">
